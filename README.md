@@ -183,7 +183,8 @@ at.on('doubletap', onDoubleTap);
 // 只加载pan识别器(拖拽)
 import Core from '@any-touch/core';
 import Pan from '@any-touch/pan';
-Core.use(Pan)
+// 使用Pan
+Core.use(Pan);
 const at = new Core(el);
 // 拖拽
 at.on('pan', (ev) => {
